@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  height: 80px;
+}
+
+.navbar .container {
+  background-color: rgb(255, 0, 0);
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;fnsdklgndrjkbgzdjknbfjkbdjkgbdklbnjkdbhjk
+}
+
+.navbar .container ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.kelas {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "Artikel-PPLG Artikel-PPLG Artikel-PPLG Artikel-PPLG"
+    "Liga-1 lorem lorem Free-Fire"
+    "About About About About"
+    "Foto Foto Biodata Biodata";
+}
+
+.item1 {
+  grid-area: Artikel-PPLG;
+}
+
+.item3 {
+  grid-area: Liga-1;
+}
+
+.item2 {
+  grid-area: lorem;
+}
+
+.item4 {
+  grid-area: Free-Fire;
+}
+
+.item5 {
+  grid-area: About;
+}
+
+.item6 {
+  grid-area: Foto;
+}
+
+.item7 {
+  grid-area: Biodata;
+}
